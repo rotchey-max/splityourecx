@@ -67,7 +67,7 @@ summary{cursor:pointer;font-weight:750}
 <h2>What does “splitting ECX” mean?</h2>
 <p>Coin splitting is the process of separating assets on two networks that share some transaction history. After a fork, the BTC you hold remains on the Bitcoin network; any corresponding fork-coin balance follows the fork's rules.</p>
 <p>Replay protection is designed to prevent a transaction made on one chain from being accepted and replayed on another. The exact protections and steps depend on the network and the tools being used. Read the official ECX documentation for the current implementation rather than relying on a generic wallet tutorial.</p>
-<p><strong>What the current official ECX documentation says:</strong> its described opt-in replay-protection marker uses <code>nLockTime = 499999999</code> on an ECX transaction, with at least one input sequence below <code>0xffffffff</code> so Bitcoin enforces the locktime while ECX treats the transaction as final. This is a technical explanation, not a transaction recipe: a safe split depends on the exact wallet, inputs, network rules, confirmations and current official procedure. Do not hand-build or sign a transaction based on this summary alone. See the <a href="https://ecash.com/coin-splitting/" target="_blank" rel="noopener noreferrer">official coin-splitting guide</a> for the current details.</p>
+<p><strong>What the current official ECX documentation says:</strong> its described opt-in replay-protection marker uses <code>nLockTime = 499999999</code> on an ECX transaction, with at least one input sequence below <code>0xffffffff</code> so Bitcoin enforces the locktime while ECX treats the transaction as final. This is a technical explanation, not a transaction recipe: a safe split depends on the exact wallet, inputs, network rules, confirmations and current official procedure. Do not hand-build or sign a transaction based on this summary alone. See the <a href="https://ecash.com/split/" target="_blank" rel="noopener noreferrer">official coin-splitting guide</a> for the current details.</p>
 <p>Replay protection is <strong>opt-in</strong> according to the current project guidance; do not assume every transaction is protected automatically. A successful split can also be affected by chain reorganisations, so follow the official confirmation and verification procedure rather than relying on a generic number of confirmations.</p>
 
 <h2>Who may be eligible for ECX?</h2>
@@ -98,7 +98,7 @@ summary{cursor:pointer;font-weight:750}
 
 <h2 id="official">Official ECX resources</h2>
 <p>Use these official project pages for the current process. If the information on this independent guide differs from the official instructions, follow the verified official documentation and pause until you understand the difference.</p>
-<p><a class="button" href="https://ecash.com/coin-splitting/" target="_blank" rel="noopener noreferrer">Official coin-splitting guide ↗</a></p>
+<p><a class="button" href="https://ecash.com/split/" target="_blank" rel="noopener noreferrer">Official coin-splitting guide ↗</a></p>
 <p><a class="button" href="https://ecash.com/what-to-expect/" target="_blank" rel="noopener noreferrer">What to expect ↗</a></p>
 <p><a class="button" href="https://ecash.com/how-to-claim/" target="_blank" rel="noopener noreferrer">Official claiming guidance ↗</a></p>
 <p><a class="button" href="https://ecash.com/" target="_blank" rel="noopener noreferrer">Official ECX website ↗</a></p>
@@ -158,7 +158,7 @@ summary{cursor:pointer;font-weight:750}
 
 <footer><div class="wrap">
 <p><strong>SplitYourECX.com</strong> — independent educational resource, not affiliated with or endorsed by ECX.</p>
-<p>Last reviewed: 9 October 2026. Verify the latest network, fork timeline and wallet guidance using the <a href="https://ecash.com/coin-splitting/" target="_blank" rel="noopener noreferrer">official coin-splitting guide</a>, <a href="https://ecash.com/what-to-expect/" target="_blank" rel="noopener noreferrer">fork timeline</a> and <a href="https://ecash.com/download/" target="_blank" rel="noopener noreferrer">official downloads</a>. Never share your seed phrase or private keys.</p>
+<p>Last reviewed: 9 October 2026. Verify the latest network, fork timeline and wallet guidance using the <a href="https://ecash.com/split/" target="_blank" rel="noopener noreferrer">official coin-splitting guide</a>, <a href="https://ecash.com/what-to-expect/" target="_blank" rel="noopener noreferrer">fork timeline</a> and <a href="https://ecash.com/download/" target="_blank" rel="noopener noreferrer">official downloads</a>. Never share your seed phrase or private keys.</p>
 </div></footer>
 </body>
 </html>
